@@ -1,0 +1,309 @@
+﻿ID Transação;Data;Hora;Tipo;Valor (R$);Descrição;Categoria;Conta;Meio de Pgto;Status;Estabelecimento;ID da Conta
+T09_001;01/09/2025;09:15:00;Entrada;5.200,00;Venda Lote 1;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Alfa;CP001
+T09_002;01/09/2025;14:45:00;Saída;-450;Material de Escritório;Despesas Operacionais;Caixa;Dinheiro;Compensado;Papelaria Central;CP002
+T09_003;01/09/2025;17:55:00;Entrada;1.800,00;Prestação de Serviço (Mês Anterior);Prestação de Serviços;Banco A (Corrente);Boleto;Compensado;Empresa Serviços Z;CR001
+T09_004;01/09/2025;20:05:00;Entrada;150;Venda Urgente (fora do horário);Vendas;Banco B (Poupança);PIX;Compensado;Cliente Beta;CP003
+T09_005;02/09/2025;11:30:00;Saída;-25.000,00;Pagamento Fornecedor Principal;Fornecedores;Banco A (Corrente);TED;Compensado;Fornecedor Delta;CR002
+T09_006;02/09/2025;16:20:00;Entrada;3.500,00;Venda Lote 2;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Gama;CP004
+T09_007;03/09/2025;08:40:00;Saída;-15.000,00;Salários (Adiantamento);Folha de Pagamento;Banco A (Corrente);TED;Compensado;RH - Funcionários;CR003
+T09_008;03/09/2025;15:10:00;Entrada;900;Pequena Venda;Vendas;Caixa;Dinheiro;Compensado;Cliente Epsilon;CP005
+T09_009;04/09/2025;10:00:00;Saída;-8.000,00;Campanha de Marketing Digital;Marketing;Banco A (Corrente);Boleto;Compensado;Agência Digital;CR004
+T09_010;04/09/2025;17:00:00;Entrada;2.200,00;Prestação de Serviço (Novo Projeto);Prestação de Serviços;Banco B (Poupança);PIX;Compensado;Empresa Serviços Y;CP006
+T09_011;05/09/2025;10:30:00;Saída;-3.500,00;Aluguel do Escritório;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Locadora Imóveis;CR005
+T09_012;05/09/2025;14:00:00;Entrada;800;Renda de Aluguéis (Imóvel 1);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino A;CP007
+T09_013;05/09/2025;18:30:00;Saída;-120;Manutenção de Emergência;Despesas Operacionais;Caixa;Dinheiro;Compensado;Serviço Reparos;CR006
+T09_014;06/09/2025;10:10:00;Entrada;4.100,00;Venda Lote 3;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Zeta;CP008
+T09_015;06/09/2025;14:50:00;Saída;-1.500,00;Pagamento de Serviços Terceirizados;Despesas Operacionais;Banco A (Corrente);PIX;Compensado;Prestador X;CR007
+T09_016;08/09/2025;11:00:00;Entrada;2.500,00;Venda no Fim de Semana;Vendas;Banco B (Poupança);PIX;Compensado;Cliente Eta;CP009
+T09_017;09/09/2025;09:00:00;Saída;-800;Conta de Luz;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Fornecedor Energia;CR008
+T09_018;09/09/2025;14:20:00;Entrada;6.000,00;Venda Lote 4;Vendas;Banco A (Corrente);TED;Compensado;Cliente Theta;CP010
+T09_019;10/09/2025;16:40:00;Saída;-500;Despesas com Viagem;Despesas Operacionais;Cartão Crédito;Cartão Crédito;Compensado;Cia Aérea;CR009
+T09_020;11/09/2025;10:50:00;Entrada;1.200,00;Renda de Aluguéis (Imóvel 2);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino B;CP011
+T09_021;11/09/2025;17:15:00;Saída;-40.000,00;Compra de Matéria-Prima (Alta);Fornecedores;Banco A (Corrente);TED;Compensado;Fornecedor Kappa;CR010
+T09_022;12/09/2025;11:00:00;Entrada;3.000,00;Venda Lote 5;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Lambda;CR011
+T09_023;12/09/2025;19:40:00;Saída;-150;Taxa Bancária (incoerência de horário);Despesas Operacionais;Banco A (Corrente);Débito Automático;Compensado;Banco A;CP012
+T09_024;15/09/2025;08:30:00;Saída;-2.500,00;Manutenção de Equipamentos;Despesas Operacionais;Banco A (Corrente);Boleto;Compensado;Serviço Manutenção;CR012
+T09_025;15/09/2025;14:00:00;Entrada;7.500,00;Venda Lote 6;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Mu;CP013
+T09_026;16/09/2025;11:45:00;Entrada;1.500,00;Prestação de Serviço (Pequeno Cliente);Prestação de Serviços;Banco B (Poupança);PIX;Compensado;Cliente Nu;CR013
+T09_027;17/09/2025;16:50:00;Saída;-5.000,00;Reforço de Estoque;Fornecedores;Banco A (Corrente);TED;Compensado;Fornecedor Xi;CP014
+T09_028;18/09/2025;09:30:00;Entrada;4.800,00;Venda Lote 7;Vendas;Banco A (Corrente);Boleto;Compensado;Cliente Omicron;CR014
+T09_029;19/09/2025;13:20:00;Saída;-1.200,00;Despesas com Combustível;Despesas Operacionais;Cartão Crédito;Cartão Crédito;Compensado;Posto Sigma;CP015
+T09_030;20/09/2025;10:00:00;Entrada;1.100,00;Renda de Aluguéis (Imóvel 3);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino C;CR015
+T09_031;22/09/2025;14:00:00;Saída;-22.000,00;Salários (Parte Final);Folha de Pagamento;Banco A (Corrente);TED;Compensado;RH - Funcionários;CP016
+T09_032;23/09/2025;16:00:00;Entrada;6.200,00;Venda Lote 8;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Pi;CR016
+T09_033;24/09/2025;11:30:00;Saída;-1.000,00;Despesa com Contabilidade;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Escritório Contábil;CP017
+T09_034;25/09/2025;15:45:00;Entrada;3.800,00;Prestação de Serviço (Fechamento);Prestação de Serviços;Banco A (Corrente);TED;Compensado;Empresa Serviços Z;CR017
+T09_035;26/09/2025;09:00:00;Saída;-500;Multa por Atraso (incoerência);Multas/Juros;Banco A (Corrente);Débito Automático;Compensado;Fornecedor Kappa;CP018
+T09_036;29/09/2025;12:15:00;Entrada;7.000,00;Venda Lote 9;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Rho;CR018
+T10_001;01/10/2025;10:30:00;Entrada;5.500,00;Venda Lote 10;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Upsilon;CP019
+T10_002;02/10/2025;16:00:00;Saída;-30.000,00;Pagamento Fornecedor Grande;Fornecedores;Banco A (Corrente);TED;Compensado;Fornecedor Phi;CR019
+T10_003;03/10/2025;11:00:00;Entrada;1.800,00;Renda de Aluguéis (Imóvel 1);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino A;CP020
+T10_004;04/10/2025;07:45:00;Saída;-80;Café da Manhã Corporativo;Despesas Operacionais;Caixa;Dinheiro;Compensado;Padaria Zeta;CR020
+T10_005;06/10/2025;14:30:00;Entrada;4.200,00;Venda Lote 11;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Chi;CP021
+T10_006;07/10/2025;15:00:00;Saída;-1.500,00;Consultoria Jurídica;Despesas Operacionais;Banco A (Corrente);Boleto;Compensado;Escritório Jurídico;CR021
+T10_007;08/10/2025;10:00:00;Entrada;2.500,00;Prestação de Serviço (Recorrente);Prestação de Serviços;Banco A (Corrente);PIX;Compensado;Empresa Serviços Z;CP022
+T10_008;09/10/2025;17:00:00;Saída;-10.000,00;Campanha de Marketing (Reforço);Marketing;Banco A (Corrente);TED;Compensado;Agência Digital;CR022
+T10_009;10/10/2025;13:45:00;Entrada;7.000,00;Venda Lote 12;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Psi;CP023
+T10_010;11/10/2025;19:00:00;Entrada;500;Recebimento de Fim de Semana;Vendas;Banco B (Poupança);PIX;Compensado;Cliente Omega;CR023
+T10_011;13/10/2025;09:10:00;Saída;-900;Conta de Água/Esgoto;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Fornecedor Água;CP024
+T10_012;14/10/2025;15:40:00;Entrada;3.500,00;Venda Lote 13;Vendas;Banco A (Corrente);TED;Compensado;Cliente Delta;CR024
+T10_013;15/10/2025;12:00:00;Saída;-1.000,00;Material de Limpeza;Despesas Operacionais;Caixa;Dinheiro;Compensado;Supermercado Local;CP025
+T10_014;16/10/2025;11:30:00;Entrada;5.800,00;Venda Lote 14;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Alfa;CR025
+T10_015;16/10/2025;19:15:00;Saída;-350;Jantar de Negócios;Despesas Operacionais;Cartão Crédito;Cartão Crédito;Compensado;Restaurante Boa Mesa;CP026
+T10_016;17/10/2025;09:40:00;Saída;-1.500,00;Material de Embalagem;Fornecedores;Banco A (Corrente);Boleto;Compensado;Fornecedor Beta;CP027
+T10_017;17/10/2025;16:55:00;Entrada;2.100,00;Prestação de Serviço (Treinamento);Prestação de Serviços;Banco B (Poupança);TED;Compensado;Empresa Serviços Z;CR026
+T10_018;20/10/2025;10:20:00;Entrada;8.500,00;Venda Lote 15;Vendas;Banco A (Corrente);TED;Compensado;Cliente Mu;CP028
+T10_019;20/10/2025;17:30:00;Saída;-4.000,00;Compra de Software;Despesas Operacionais;Banco A (Corrente);Boleto;Compensado;Fornecedor de TI;CR027
+T10_020;21/10/2025;12:00:00;Entrada;1.100,00;Renda de Aluguéis (Imóvel 2);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino B;CP029
+T10_021;22/10/2025;08:30:00;Saída;-12.000,00;Aporte em Investimento;Investimentos;Banco A (Corrente);TED;Compensado;Corretora XPTO;CR028
+T10_022;22/10/2025;22:45:00;Entrada;450;Venda Online Noturna;Vendas;Banco B (Poupança);Cartão Crédito;Compensado;Cliente Zeta;CP030
+T10_023;23/10/2025;15:10:00;Entrada;3.200,00;Venda Lote 16;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Pi;CR029
+T10_024;24/10/2025;11:50:00;Saída;-500;Reparo de Veículo;Despesas Operacionais;Caixa;Dinheiro;Compensado;Mecânica Jota;CP031
+T10_025;24/10/2025;17:00:00;Entrada;9.000,00;Venda Lote 17 (Grande);Vendas;Banco A (Corrente);Boleto;Compensado;Cliente Alfa;CR030
+T10_026;25/10/2025;10:00:00;Entrada;1.500,00;Prestação de Serviço (Extra);Prestação de Serviços;Banco B (Poupança);PIX;Compensado;Cliente Nu;CP032
+T10_027;27/10/2025;13:00:00;Saída;-750;Publicidade em Rede Social;Marketing;Cartão Crédito;Cartão Crédito;Compensado;Agência Digital;CR031
+T10_028;28/10/2025;09:10:00;Entrada;4.000,00;Venda Lote 18;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Beta;CP033
+T10_029;29/10/2025;18:05:00;Saída;-23.500,00;Salários (Parte Final/Completo);Folha de Pagamento;Banco A (Corrente);TED;Compensado;RH - Funcionários;CR032
+T10_030;30/10/2025;14:00:00;Entrada;6.500,00;Venda Lote 19;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Tau;CP034
+T11_001;01/11/2025;12:00:00;Entrada;7.500,00;Venda Lote 20 (Início do Mês);Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Rho;CR033
+T11_002;03/11/2025;10:00:00;Saída;-35.000,00;Compra de Estoque (Grande);Fornecedores;Banco A (Corrente);TED;Compensado;Fornecedor Delta;CP035
+T11_003;03/11/2025;15:00:00;Entrada;3.000,00;Prestação de Serviço (Recorrente);Prestação de Serviços;Banco A (Corrente);Boleto;Compensado;Empresa Serviços Y;CR034
+T11_004;04/11/2025;17:30:00;Saída;-3.500,00;Aluguel do Escritório;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Locadora Imóveis;CP036
+T11_005;05/11/2025;09:00:00;Entrada;1.800,00;Renda de Aluguéis (Imóvel 1);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino A;CR035
+T11_006;05/11/2025;21:00:00;Entrada;250;Venda Pequena Noturna;Vendas;Caixa;Dinheiro;Compensado;Cliente Epsilon;CP037
+T11_007;06/11/2025;14:00:00;Saída;-1.200,00;Aquisição de Domínio Web;Marketing;Cartão Crédito;Cartão Crédito;Compensado;Registro Web;CR036
+T11_008;07/11/2025;10:45:00;Entrada;4.900,00;Venda Lote 21;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Zeta;CP038
+T11_009;10/11/2025;16:30:00;Saída;-800;Conta de Água/Esgoto;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Fornecedor Água;CR037
+T11_010;11/11/2025;11:00:00;Entrada;6.000,00;Venda Lote 22;Vendas;Banco A (Corrente);TED;Compensado;Cliente Lambda;CP039
+T11_011;11/11/2025;20:30:00;Saída;-50;Tarifa Bancária (incoerência);Despesas Operacionais;Banco B (Poupança);Débito Automático;Compensado;Banco B;CR038
+T11_012;12/11/2025;15:20:00;Entrada;2.500,00;Prestação de Serviço (Consultoria);Prestação de Serviços;Banco A (Corrente);Boleto;Compensado;Cliente Rho;CP040
+T11_013;13/11/2025;13:00:00;Saída;-1.500,00;Despesas de Viagem e Hospedagem;Despesas Operacionais;Cartão Crédito;Cartão Crédito;Compensado;Hotel XYZ;CR039
+T11_014;14/11/2025;17:10:00;Entrada;7.200,00;Venda Lote 23;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Mu;CP041
+T11_015;15/11/2025;10:30:00;Entrada;1.200,00;Venda no Fim de Semana (incoerência);Vendas;Banco B (Poupança);Cartão Crédito;Compensado;Cliente Nu;CR040
+T11_016;17/11/2025;09:00:00;Saída;-1.800,00;Pagamento de Serviços Terceirizados;Despesas Operacionais;Banco A (Corrente);PIX;Compensado;Prestador X;CP042
+T11_017;18/11/2025;14:40:00;Entrada;4.100,00;Venda Lote 24;Vendas;Banco A (Corrente);Boleto;Compensado;Cliente Alfa;CR041
+T11_018;19/11/2025;11:15:00;Saída;-8.000,00;Campanha de Marketing (Black Friday);Marketing;Banco A (Corrente);TED;Compensado;Agência Digital;CP043
+T11_019;20/11/2025;16:50:00;Entrada;1.100,00;Renda de Aluguéis (Imóvel 2);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino B;CR042
+T11_020;21/11/2025;18:15:00;Saída;-200;Material de Limpeza;Despesas Operacionais;Caixa;Dinheiro;Compensado;Supermercado Local;CP044
+T11_021;24/11/2025;10:00:00;Entrada;9.500,00;Venda Lote 25 (Pré-Black Friday);Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Tau;CR043
+T11_022;25/11/2025;15:30:00;Saída;-22.000,00;Salários (Final do Mês);Folha de Pagamento;Banco A (Corrente);TED;Compensado;RH - Funcionários;CP045
+T11_023;26/11/2025;11:45:00;Entrada;3.500,00;Prestação de Serviço (Fechamento);Prestação de Serviços;Banco A (Corrente);PIX;Compensado;Empresa Serviços Z;CR044
+T11_024;27/11/2025;14:00:00;Saída;-1.800,00;Juros e Encargos (Atraso no Fornecedor);Multas/Juros;Banco A (Corrente);Débito Automático;Compensado;Fornecedor Delta;CP046
+T11_025;28/11/2025;17:00:00;Entrada;12.500,00;Venda Lote 26 (Black Friday);Vendas;Banco A (Corrente);TED;Compensado;Cliente Omicron;CP047
+T11_026;29/11/2025;09:30:00;Saída;-500;Despesa com Contabilidade;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Escritório Contábil;CR045
+T11_027;29/11/2025;15:00:00;Entrada;800;Venda Pequena Extra (Sábado);Vendas;Banco B (Poupança);PIX;Compensado;Cliente Eta;CP048
+T12_001;01/12/2025;10:00:00;Entrada;6.500,00;Venda Lote 27 (Início do Mês);Vendas;Banco A (Corrente);PIX;Compensado;Cliente Gama;CR046
+T12_002;02/12/2025;14:30:00;Saída;-40.000,00;Compra de Estoque (Alto Volume - Natal);Fornecedores;Banco A (Corrente);TED;Compensado;Fornecedor Kappa;CP049
+T12_003;03/12/2025;11:00:00;Entrada;1.800,00;Renda de Aluguéis (Imóvel 1);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino A;CR047
+T12_004;04/12/2025;17:00:00;Saída;-3.500,00;Aluguel do Escritório;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Locadora Imóveis;CP050
+T12_005;05/12/2025;09:15:00;Entrada;5.800,00;Venda Lote 28;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Lambda;CR048
+T12_006;05/12/2025;14:40:00;Saída;-1.500,00;Despesas com Brindes de Fim de Ano;Marketing;Cartão Crédito;Cartão Crédito;Compensado;Fornecedor de Brindes;CP051
+T12_007;08/12/2025;10:30:00;Entrada;3.000,00;Prestação de Serviço (Recorrente);Prestação de Serviços;Banco A (Corrente);Boleto;Compensado;Empresa Serviços Z;CR049
+T12_008;09/12/2025;15:00:00;Saída;-900;Conta de Luz (Aumento de Consumo);Contas Fixas;Banco A (Corrente);Boleto;Compensado;Fornecedor Energia;CP052
+T12_009;10/12/2025;12:00:00;Entrada;7.500,00;Venda Lote 29 (Mês de Natal);Vendas;Banco A (Corrente);PIX;Compensado;Cliente Mu;CR050
+T12_010;11/12/2025;16:45:00;Saída;-15.000,00;13º Salário (1ª Parcela);Folha de Pagamento;Banco A (Corrente);TED;Compensado;RH - Funcionários;CP053
+T12_011;12/12/2025;10:50:00;Entrada;1.200,00;Renda de Aluguéis (Imóvel 2);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino B;CR051
+T12_012;13/12/2025;13:30:00;Saída;-300;Manutenção de Rotina;Despesas Operacionais;Caixa;Dinheiro;Compensado;Serviço Reparos;CP054
+T12_013;15/12/2025;09:00:00;Entrada;8.000,00;Venda Lote 30 (Pico de Natal);Vendas;Banco A (Corrente);TED;Compensado;Cliente Nu;CR052
+T12_014;16/12/2025;14:20:00;Saída;-2.000,00;Despesas com Confraternização;Marketing;Cartão Crédito;Cartão Crédito;Compensado;Restaurante de Eventos;CP055
+T12_015;17/12/2025;11:15:00;Entrada;4.500,00;Prestação de Serviço (Urgente);Prestação de Serviços;Banco B (Poupança);PIX;Compensado;Empresa Serviços Y;CR053
+T12_016;18/12/2025;16:00:00;Saída;-1.000,00;Licença Anual de Software;Despesas Operacionais;Banco A (Corrente);Boleto;Compensado;Fornecedor de TI;CP056
+T12_017;19/12/2025;10:40:00;Entrada;6.200,00;Venda Lote 31;Vendas;Banco A (Corrente);Boleto;Compensado;Cliente Alfa;CR054
+T12_018;22/12/2025;14:00:00;Saída;-15.000,00;13º Salário (2ª Parcela);Folha de Pagamento;Banco A (Corrente);TED;Compensado;RH - Funcionários;CP057
+T12_019;23/12/2025;17:30:00;Entrada;1.100,00;Renda de Aluguéis (Imóvel 3);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino C;CR055
+T12_020;26/12/2025;09:30:00;Saída;-50;Tarifa de Fim de Ano;Despesas Operacionais;Banco A (Corrente);Débito Automático;Compensado;Banco A;CP058
+T12_021;26/12/2025;15:10:00;Entrada;10.000,00;Venda Lote 32 (Super Venda);Vendas;Banco A (Corrente);TED;Compensado;Cliente Sigma;CR056
+T12_022;27/12/2025;12:00:00;Entrada;900;Venda Extra (Sábado);Vendas;Caixa;Dinheiro;Compensado;Cliente Theta;CP059
+T12_023;29/12/2025;14:45:00;Saída;-800;Material de Escritório (Estoque);Despesas Operacionais;Banco A (Corrente);PIX;Compensado;Papelaria Central;CR057
+T12_024;30/12/2025;11:00:00;Entrada;5.500,00;Venda Lote 33 (Fechamento);Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Pi;CP060
+T01_001;02/01/2026;10:00:00;Saída;-38.000,00;Compra de Estoque (Redução pós-natal);Fornecedores;Banco A (Corrente);TED;Compensado;Fornecedor Delta;CR058
+T01_002;03/01/2026;15:00:00;Entrada;2.500,00;Prestação de Serviço (Recorrente);Prestação de Serviços;Banco A (Corrente);Boleto;Compensado;Empresa Serviços Z;CP061
+T01_003;05/01/2026;09:30:00;Entrada;1.800,00;Renda de Aluguéis (Imóvel 1);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino A;CR059
+T01_004;06/01/2026;17:40:00;Saída;-3.500,00;Aluguel do Escritório;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Locadora Imóveis;CP062
+T01_005;07/01/2026;11:10:00;Entrada;4.500,00;Venda Lote 34;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Upsilon;CR060
+T01_006;08/01/2026;14:00:00;Saída;-1.000,00;Manutenção de Software;Despesas Operacionais;Cartão Crédito;Cartão Crédito;Compensado;Fornecedor de TI;CP063
+T01_007;09/01/2026;16:30:00;Entrada;6.000,00;Venda Lote 35;Vendas;Banco A (Corrente);TED;Compensado;Cliente Chi;CR061
+T01_008;12/01/2026;09:00:00;Saída;-850;Conta de Luz;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Fornecedor Energia;CP064
+T01_009;13/01/2026;14:45:00;Entrada;3.200,00;Venda Lote 36;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Psi;CR062
+T01_010;14/01/2026;11:00:00;Saída;-1.500,00;Despesas com Treinamento de Equipe;Despesas Operacionais;Banco A (Corrente);PIX;Compensado;Instrutor Alpha;CP065
+T01_011;15/01/2026;17:15:00;Entrada;1.200,00;Renda de Aluguéis (Imóvel 2);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino B;CP066
+T01_012;16/01/2026;12:30:00;Saída;-200;Tarifa de Débito Automático;Despesas Operacionais;Banco A (Corrente);Débito Automático;Compensado;Banco A;CR063
+T01_013;19/01/2026;10:00:00;Entrada;7.000,00;Venda Lote 37;Vendas;Banco A (Corrente);Boleto;Compensado;Cliente Omega;CP067
+T01_014;20/01/2026;15:30:00;Saída;-500;Material de Limpeza;Despesas Operacionais;Caixa;Dinheiro;Compensado;Supermercado Local;CR064
+T01_015;21/01/2026;11:45:00;Entrada;2.800,00;Prestação de Serviço (Novo Cliente);Prestação de Serviços;Banco B (Poupança);PIX;Compensado;Cliente Pi;CP068
+T01_016;22/01/2026;16:00:00;Saída;-6.000,00;Campanha de Marketing (Início do Ano);Marketing;Banco A (Corrente);TED;Compensado;Agência Digital;CR065
+T01_017;23/01/2026;10:50:00;Entrada;5.500,00;Venda Lote 38;Vendas;Banco A (Corrente);TED;Compensado;Cliente Delta;CP069
+T01_018;26/01/2026;14:00:00;Saída;-21.000,00;Salários (Fevereiro Adiantamento);Folha de Pagamento;Banco A (Corrente);TED;Compensado;RH - Funcionários;CR066
+T01_019;27/01/2026;17:20:00;Entrada;1.100,00;Renda de Aluguéis (Imóvel 3);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino C;CP070
+T01_020;28/01/2026;12:15:00;Entrada;4.200,00;Venda Lote 39;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Mu;CR067
+T01_021;29/01/2026;18:00:00;Saída;-400;Reparo de Móveis;Despesas Operacionais;Caixa;Dinheiro;Compensado;Serviço Reparos;CP071
+T01_022;30/01/2026;09:45:00;Entrada;7.500,00;Venda Lote 40;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Nu;CR068
+T02_001;02/02/2026;10:30:00;Saída;-28.000,00;Compra de Matéria-Prima (Fevereiro);Fornecedores;Banco A (Corrente);TED;Compensado;Fornecedor Kappa;CP072
+T02_002;03/02/2026;15:00:00;Entrada;3.500,00;Prestação de Serviço (Recorrente);Prestação de Serviços;Banco A (Corrente);Boleto;Compensado;Empresa Serviços Y;CR069
+T02_003;04/02/2026;17:00:00;Saída;-3.500,00;Aluguel do Escritório;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Locadora Imóveis;CP073
+T02_004;05/02/2026;09:00:00;Entrada;1.800,00;Renda de Aluguéis (Imóvel 1);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino A;CR070
+T02_005;06/02/2026;14:20:00;Entrada;5.000,00;Venda Lote 41;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Zeta;CP074
+T02_006;07/02/2026;10:00:00;Saída;-1.200,00;Despesa com Contabilidade;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Escritório Contábil;CR071
+T02_007;09/02/2026;15:45:00;Entrada;4.800,00;Venda Lote 42;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Lambda;CP075
+T02_008;10/02/2026;13:00:00;Saída;-700;Conta de Água/Esgoto;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Fornecedor Água;CR072
+T02_009;11/02/2026;16:50:00;Entrada;6.500,00;Venda Lote 43;Vendas;Banco A (Corrente);TED;Compensado;Cliente Rho;CP076
+T02_010;12/02/2026;10:00:00;Saída;-50;Taxa de Manutenção (Fevereiro);Despesas Operacionais;Banco A (Corrente);Débito Automático;Compensado;Banco A;CR073
+T02_011;13/02/2026;15:10:00;Entrada;1.200,00;Renda de Aluguéis (Imóvel 2);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino B;CP077
+T02_012;16/02/2026;09:30:00;Saída;-1.500,00;Pagamento de Serviços Terceirizados;Despesas Operacionais;Banco A (Corrente);PIX;Compensado;Prestador X;CR074
+T02_013;17/02/2026;14:00:00;Entrada;7.000,00;Venda Lote 44;Vendas;Banco A (Corrente);Boleto;Compensado;Cliente Mu;CP078
+T02_014;18/02/2026;17:30:00;Saída;-4.000,00;Reforço de Estoque;Fornecedores;Banco A (Corrente);TED;Compensado;Fornecedor Xi;CR075
+T02_015;19/02/2026;10:00:00;Entrada;2.100,00;Prestação de Serviço (Pequeno Projeto);Prestação de Serviços;Banco B (Poupança);PIX;Compensado;Cliente Nu;CP079
+T02_016;20/02/2026;11:45:00;Saída;-300;Despesa com Café e Lanches;Despesas Operacionais;Caixa;Dinheiro;Compensado;Padaria Local;CR076
+T02_017;23/02/2026;15:30:00;Entrada;8.500,00;Venda Lote 45;Vendas;Banco A (Corrente);TED;Compensado;Cliente Alfa;CP080
+T02_018;24/02/2026;12:00:00;Saída;-20.000,00;Salários (Parte Final);Folha de Pagamento;Banco A (Corrente);TED;Compensado;RH - Funcionários;CR077
+T02_019;25/02/2026;16:10:00;Entrada;4.000,00;Prestação de Serviço (Fechamento);Prestação de Serviços;Banco A (Corrente);Cartão Crédito;Compensado;Empresa Serviços Z;CP081
+T02_020;26/02/2026;18:00:00;Saída;-1.000,00;Publicidade (Facebook Ads);Marketing;Cartão Crédito;Cartão Crédito;Compensado;Agência Digital;CR078
+T02_021;27/02/2026;09:40:00;Entrada;6.200,00;Venda Lote 46;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Beta;CP082
+T02_022;28/02/2026;15:00:00;Entrada;1.100,00;Renda de Aluguéis (Imóvel 3);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino C;CR079
+T03_001;02/03/2026;10:00:00;Saída;-30.000,00;Compra de Estoque (Março);Fornecedores;Banco A (Corrente);TED;Compensado;Fornecedor Phi;CP083
+T03_002;03/03/2026;15:00:00;Entrada;2.500,00;Prestação de Serviço (Recorrente);Prestação de Serviços;Banco A (Corrente);Boleto;Compensado;Empresa Serviços Z;CR080
+T03_003;04/03/2026;17:30:00;Saída;-3.500,00;Aluguel do Escritório;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Locadora Imóveis;CP084
+T03_004;05/03/2026;09:00:00;Entrada;1.800,00;Renda de Aluguéis (Imóvel 1);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino A;CP085
+T03_005;06/03/2026;14:00:00;Entrada;5.500,00;Venda Lote 47;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Gama;CR081
+T03_006;07/03/2026;10:00:00;Saída;-900;Conta de Luz;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Fornecedor Energia;CP086
+T03_007;09/03/2026;15:00:00;Entrada;4.200,00;Venda Lote 48;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Theta;CR082
+T03_008;10/03/2026;13:00:00;Saída;-1.500,00;Consultoria de Processos;Despesas Operacionais;Banco A (Corrente);TED;Compensado;Consultoria Alpha;CP087
+T03_009;11/03/2026;16:50:00;Entrada;6.800,00;Venda Lote 49;Vendas;Banco A (Corrente);TED;Compensado;Cliente Sigma;CR083
+T03_010;12/03/2026;10:00:00;Saída;-50;Tarifa Bancária (Março);Despesas Operacionais;Banco A (Corrente);Débito Automático;Compensado;Banco A;CP088
+T03_011;13/03/2026;15:10:00;Entrada;1.200,00;Renda de Aluguéis (Imóvel 2);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino B;CR084
+T03_012;16/03/2026;09:30:00;Saída;-5.000,00;Campanha de Marketing (Reforço);Marketing;Banco A (Corrente);Boleto;Compensado;Agência Digital;CP089
+T03_013;17/03/2026;14:00:00;Entrada;7.000,00;Venda Lote 50;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Pi;CR085
+T03_014;18/03/2026;17:30:00;Saída;-1.000,00;Material de Embalagem;Fornecedores;Banco A (Corrente);Boleto;Compensado;Fornecedor Beta;CP090
+T03_015;19/03/2026;10:00:00;Entrada;2.100,00;Prestação de Serviço (Treinamento);Prestação de Serviços;Banco B (Poupança);TED;Compensado;Empresa Serviços Z;CR086
+T03_016;20/03/2026;11:45:00;Saída;-500;Reparo de Equipamentos;Despesas Operacionais;Caixa;Dinheiro;Compensado;Mecânica Jota;CP091
+T03_017;23/03/2026;15:30:00;Entrada;8.500,00;Venda Lote 51;Vendas;Banco A (Corrente);TED;Compensado;Cliente Mu;CR087
+T03_018;24/03/2026;12:00:00;Saída;-21.500,00;Salários (Parte Final/Completo);Folha de Pagamento;Banco A (Corrente);TED;Compensado;RH - Funcionários;CP092
+T03_019;25/03/2026;16:10:00;Entrada;4.000,00;Prestação de Serviço (Grande Cliente);Prestação de Serviços;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Lambda;CR088
+T03_020;26/03/2026;18:00:00;Saída;-300;Despesa com Correios;Despesas Operacionais;Cartão Crédito;Cartão Crédito;Compensado;Correios;CP093
+T03_021;27/03/2026;09:40:00;Entrada;6.200,00;Venda Lote 52;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Tau;CR089
+T03_022;30/03/2026;15:00:00;Entrada;1.100,00;Renda de Aluguéis (Imóvel 3);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino C;CP094
+T03_023;31/03/2026;12:00:00;Entrada;500;Venda Pequena Extra;Vendas;Caixa;Dinheiro;Compensado;Cliente Epsilon;CR090
+T04_001;01/04/2026;10:30:00;Saída;-25.000,00;Compra de Estoque (Abril);Fornecedores;Banco A (Corrente);TED;Compensado;Fornecedor Delta;CP095
+T04_002;02/04/2026;15:00:00;Entrada;3.000,00;Prestação de Serviço (Recorrente);Prestação de Serviços;Banco A (Corrente);Boleto;Compensado;Empresa Serviços Y;CR091
+T04_003;03/04/2026;11:00:00;Entrada;1.800,00;Renda de Aluguéis (Imóvel 1);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino A;CP096
+T04_004;04/04/2026;07:45:00;Saída;-150;Café e Material de Copa;Despesas Operacionais;Caixa;Dinheiro;Compensado;Supermercado Local;CR092
+T04_005;06/04/2026;14:30:00;Entrada;4.500,00;Venda Lote 53;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Chi;CP097
+T04_006;07/04/2026;15:00:00;Saída;-3.500,00;Aluguel do Escritório;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Locadora Imóveis;CR093
+T04_007;08/04/2026;10:00:00;Entrada;2.500,00;Prestação de Serviço (Recorrente);Prestação de Serviços;Banco A (Corrente);PIX;Compensado;Empresa Serviços Z;CP098
+T04_008;09/04/2026;17:00:00;Saída;-1.200,00;Manutenção de Equipamento de TI;Despesas Operacionais;Banco A (Corrente);TED;Compensado;Serviço Manutenção;CR094
+T04_009;10/04/2026;13:45:00;Entrada;7.500,00;Venda Lote 54;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Psi;CP099
+T04_010;11/04/2026;19:00:00;Entrada;350;Venda Online (Fim de Semana);Vendas;Banco B (Poupança);PIX;Compensado;Cliente Omega;CR095
+T04_011;13/04/2026;09:10:00;Saída;-800;Conta de Água/Esgoto;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Fornecedor Água;CP100
+T04_012;14/04/2026;15:40:00;Entrada;3.800,00;Venda Lote 55;Vendas;Banco A (Corrente);TED;Compensado;Cliente Delta;CR047
+T04_013;15/04/2026;12:00:00;Saída;-400;Despesas com Correios;Despesas Operacionais;Caixa;Dinheiro;Compensado;Correios;CP049
+T04_014;16/04/2026;11:30:00;Entrada;6.000,00;Venda Lote 56;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Alfa;CR048
+T04_015;16/04/2026;19:15:00;Saída;-200;Tarifa de Manutenção;Despesas Operacionais;Banco A (Corrente);Débito Automático;Compensado;Banco A;CR049
+T04_016;17/04/2026;09:40:00;Saída;-1.500,00;Material de Escritório (Compra Grande);Fornecedores;Banco A (Corrente);Boleto;Compensado;Papelaria Central;CP052
+T04_017;17/04/2026;16:55:00;Entrada;2.100,00;Prestação de Serviço (Consultoria);Prestação de Serviços;Banco B (Poupança);TED;Compensado;Empresa Serviços Z;CR050
+T04_018;20/04/2026;10:20:00;Entrada;8.800,00;Venda Lote 57;Vendas;Banco A (Corrente);TED;Compensado;Cliente Mu;CP053
+T04_019;21/04/2026;12:00:00;Entrada;1.200,00;Renda de Aluguéis (Imóvel 2);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino B;CR051
+T04_020;22/04/2026;08:30:00;Saída;-15.000,00;Retirada para Novo Investimento;Investimentos;Banco A (Corrente);TED;Compensado;Corretora XPTO;CP054
+T04_021;23/04/2026;15:10:00;Entrada;3.500,00;Venda Lote 58;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Pi;CR052
+T04_022;24/04/2026;11:50:00;Saída;-700;Reparo de Veículo;Despesas Operacionais;Caixa;Dinheiro;Compensado;Mecânica Jota;CP055
+T04_023;27/04/2026;10:00:00;Entrada;9.200,00;Venda Lote 59 (Grande);Vendas;Banco A (Corrente);Boleto;Compensado;Cliente Alfa;CR053
+T04_024;28/04/2026;15:00:00;Entrada;1.500,00;Prestação de Serviço (Extra);Prestação de Serviços;Banco B (Poupança);PIX;Compensado;Cliente Nu;CP056
+T04_025;29/04/2026;13:00:00;Saída;-24.000,00;Salários (Parte Final);Folha de Pagamento;Banco A (Corrente);TED;Compensado;RH - Funcionários;CR054
+T04_026;30/04/2026;09:10:00;Entrada;4.100,00;Venda Lote 60;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Beta;CP057
+T05_001;01/05/2026;12:00:00;Entrada;7.800,00;Venda Lote 61 (Início do Mês);Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Rho;CR055
+T05_002;04/05/2026;10:00:00;Saída;-32.000,00;Compra de Estoque (Maio);Fornecedores;Banco A (Corrente);TED;Compensado;Fornecedor Delta;CP058
+T05_003;05/05/2026;15:00:00;Entrada;3.000,00;Prestação de Serviço (Recorrente);Prestação de Serviços;Banco A (Corrente);Boleto;Compensado;Empresa Serviços Y;CR056
+T05_004;06/05/2026;17:30:00;Saída;-3.500,00;Aluguel do Escritório;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Locadora Imóveis;CP059
+T05_005;07/05/2026;09:00:00;Entrada;1.800,00;Renda de Aluguéis (Imóvel 1);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino A;CR057
+T05_006;08/05/2026;14:00:00;Saída;-800;Publicidade em Rede Social (Maio);Marketing;Cartão Crédito;Cartão Crédito;Compensado;Agência Digital;CP060
+T05_007;11/05/2026;10:45:00;Entrada;5.000,00;Venda Lote 62;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Zeta;CR058
+T05_008;12/05/2026;16:30:00;Saída;-900;Conta de Luz;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Fornecedor Energia;CP061
+T05_009;13/05/2026;11:00:00;Entrada;6.500,00;Venda Lote 63;Vendas;Banco A (Corrente);TED;Compensado;Cliente Lambda;CR059
+T05_010;14/05/2026;15:20:00;Entrada;2.500,00;Prestação de Serviço (Consultoria);Prestação de Serviços;Banco A (Corrente);Boleto;Compensado;Cliente Rho;CP062
+T05_011;15/05/2026;13:00:00;Saída;-1.500,00;Despesas de Viagem e Hospedagem;Despesas Operacionais;Cartão Crédito;Cartão Crédito;Compensado;Hotel XYZ;CR060
+T05_012;18/05/2026;17:10:00;Entrada;7.500,00;Venda Lote 64;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Mu;CP063
+T05_013;19/05/2026;10:30:00;Entrada;1.200,00;Renda de Aluguéis (Imóvel 2);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino B;CR061
+T05_014;20/05/2026;09:00:00;Saída;-1.800,00;Pagamento de Serviços Terceirizados;Despesas Operacionais;Banco A (Corrente);PIX;Compensado;Prestador X;CP064
+T05_015;21/05/2026;14:40:00;Entrada;4.500,00;Venda Lote 65;Vendas;Banco A (Corrente);Boleto;Compensado;Cliente Alfa;CR062
+T05_016;22/05/2026;11:15:00;Saída;-200;Material de Limpeza;Despesas Operacionais;Caixa;Dinheiro;Compensado;Supermercado Local;CP065
+T05_017;25/05/2026;16:50:00;Entrada;10.000,00;Venda Lote 66 (Grande);Vendas;Banco A (Corrente);TED;Compensado;Cliente Tau;CP066
+T05_018;26/05/2026;18:15:00;Saída;-60;Tarifa Bancária (Maio);Despesas Operacionais;Banco B (Poupança);Débito Automático;Compensado;Banco B;CR063
+T05_019;27/05/2026;11:45:00;Entrada;3.500,00;Prestação de Serviço (Fechamento);Prestação de Serviços;Banco A (Corrente);PIX;Compensado;Empresa Serviços Z;CP067
+T05_020;28/05/2026;14:00:00;Saída;-500;Despesa com Contabilidade;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Escritório Contábil;CR064
+T05_021;29/05/2026;17:00:00;Entrada;1.100,00;Renda de Aluguéis (Imóvel 3);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino C;CP068
+T05_022;30/05/2026;09:30:00;Saída;-24.500,00;Salários (Parte Final);Folha de Pagamento;Banco A (Corrente);TED;Compensado;RH - Funcionários;CR065
+T06_001;01/06/2026;10:00:00;Entrada;6.000,00;Venda Lote 67 (Início do Mês);Vendas;Banco A (Corrente);PIX;Compensado;Cliente Gama;CP069
+T06_002;02/06/2026;14:30:00;Saída;-30.000,00;Compra de Estoque (Junho - Férias);Fornecedores;Banco A (Corrente);TED;Compensado;Fornecedor Kappa;CR066
+T06_003;03/06/2026;11:00:00;Entrada;1.800,00;Renda de Aluguéis (Imóvel 1);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino A;CP070
+T06_004;04/06/2026;17:00:00;Saída;-3.500,00;Aluguel do Escritório;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Locadora Imóveis;CR067
+T06_005;05/06/2026;09:15:00;Entrada;5.500,00;Venda Lote 68;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Theta;CP071
+T06_006;06/06/2026;14:40:00;Saída;-1.000,00;Manutenção de Rotina;Despesas Operacionais;Caixa;Dinheiro;Compensado;Serviço Reparos;CR068
+T06_007;08/06/2026;10:30:00;Entrada;3.000,00;Prestação de Serviço (Recorrente);Prestação de Serviços;Banco A (Corrente);Boleto;Compensado;Empresa Serviços Z;CP072
+T06_008;09/06/2026;15:00:00;Saída;-850;Conta de Luz;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Fornecedor Energia;CR069
+T06_009;10/06/2026;12:00:00;Entrada;7.000,00;Venda Lote 69;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Sigma;CP073
+T06_010;11/06/2026;16:45:00;Saída;-500;Publicidade (Google Ads);Marketing;Cartão Crédito;Cartão Crédito;Compensado;Agência Digital;CR070
+T06_011;12/06/2026;10:50:00;Entrada;1.200,00;Renda de Aluguéis (Imóvel 2);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino B;CP074
+T06_012;15/06/2026;09:00:00;Entrada;8.200,00;Venda Lote 70;Vendas;Banco A (Corrente);TED;Compensado;Cliente Pi;CR071
+T06_013;16/06/2026;14:20:00;Saída;-1.500,00;Despesas de Viagem (Curso);Despesas Operacionais;Cartão Crédito;Cartão Crédito;Compensado;Cia Aérea;CP075
+T06_014;17/06/2026;11:15:00;Entrada;4.800,00;Prestação de Serviço (Novo Projeto);Prestação de Serviços;Banco B (Poupança);PIX;Compensado;Empresa Serviços Y;CR072
+T06_015;18/06/2026;16:00:00;Saída;-2.000,00;Reforço de Estoque;Fornecedores;Banco A (Corrente);Boleto;Compensado;Fornecedor Beta;CP076
+T06_016;19/06/2026;10:40:00;Entrada;6.500,00;Venda Lote 71;Vendas;Banco A (Corrente);Boleto;Compensado;Cliente Mu;CR073
+T06_017;22/06/2026;14:00:00;Saída;-23.000,00;Salários (Adiantamento);Folha de Pagamento;Banco A (Corrente);TED;Compensado;RH - Funcionários;CP077
+T06_018;23/06/2026;17:30:00;Entrada;1.100,00;Renda de Aluguéis (Imóvel 3);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino C;CR074
+T06_019;24/06/2026;09:30:00;Saída;-100;Taxa de Saque;Despesas Operacionais;Banco A (Corrente);Débito Automático;Compensado;Banco A;CP078
+T06_020;25/06/2026;15:10:00;Entrada;9.000,00;Venda Lote 72 (Grande);Vendas;Banco A (Corrente);TED;Compensado;Cliente Lambda;CR075
+T06_021;26/06/2026;12:00:00;Entrada;350;Venda Pequena (Sexta);Vendas;Caixa;Dinheiro;Compensado;Cliente Epsilon;CP079
+T06_022;29/06/2026;14:45:00;Saída;-1.500,00;Juros de Empréstimo (Mensal);Multas/Juros;Banco A (Corrente);Débito Automático;Compensado;Banco A;CR076
+T06_023;30/06/2026;11:00:00;Entrada;5.200,00;Venda Lote 73 (Fechamento);Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Rho;CP080
+T07_001;01/07/2026;10:30:00;Saída;-35.000,00;Compra de Estoque (Julho - Férias);Fornecedores;Banco A (Corrente);TED;Compensado;Fornecedor Phi;CR077
+T07_002;02/07/2026;15:00:00;Entrada;3.500,00;Prestação de Serviço (Recorrente);Prestação de Serviços;Banco A (Corrente);Boleto;Compensado;Empresa Serviços Y;CP081
+T07_003;03/07/2026;11:00:00;Entrada;1.800,00;Renda de Aluguéis (Imóvel 1);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino A;CR078
+T07_004;04/07/2026;07:45:00;Saída;-50;Café e Material de Copa;Despesas Operacionais;Caixa;Dinheiro;Compensado;Padaria Zeta;CP082
+T07_005;06/07/2026;14:30:00;Entrada;4.200,00;Venda Lote 74;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Chi;CR079
+T07_006;07/07/2026;15:00:00;Saída;-3.500,00;Aluguel do Escritório;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Locadora Imóveis;CP083
+T07_007;08/07/2026;10:00:00;Entrada;2.500,00;Prestação de Serviço (Recorrente);Prestação de Serviços;Banco A (Corrente);PIX;Compensado;Empresa Serviços Z;CR080
+T07_008;09/07/2026;17:00:00;Saída;-1.000,00;Publicidade (Instagram Ads);Marketing;Banco A (Corrente);TED;Compensado;Agência Digital;CP084
+T07_009;10/07/2026;13:45:00;Entrada;7.200,00;Venda Lote 75;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Psi;CP085
+T07_010;11/07/2026;19:00:00;Entrada;400;Venda Online (Fim de Semana);Vendas;Banco B (Poupança);PIX;Compensado;Cliente Omega;CR081
+T07_011;13/07/2026;09:10:00;Saída;-750;Conta de Água/Esgoto;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Fornecedor Água;CP086
+T07_012;14/07/2026;15:40:00;Entrada;3.800,00;Venda Lote 76;Vendas;Banco A (Corrente);TED;Compensado;Cliente Delta;CR082
+T07_013;15/07/2026;12:00:00;Saída;-500;Material de Limpeza;Despesas Operacionais;Caixa;Dinheiro;Compensado;Supermercado Local;CP087
+T07_014;16/07/2026;11:30:00;Entrada;6.500,00;Venda Lote 77;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Alfa;CR083
+T07_015;16/07/2026;19:15:00;Saída;-100;Taxa de Manutenção (Julho);Despesas Operacionais;Banco A (Corrente);Débito Automático;Compensado;Banco A;CP088
+T07_016;17/07/2026;09:40:00;Saída;-1.500,00;Material de Embalagem (Compra Grande);Fornecedores;Banco A (Corrente);Boleto;Compensado;Fornecedor Beta;CR084
+T07_017;17/07/2026;16:55:00;Entrada;2.100,00;Prestação de Serviço (Consultoria);Prestação de Serviços;Banco B (Poupança);TED;Compensado;Empresa Serviços Z;CP089
+T07_018;20/07/2026;10:20:00;Entrada;8.000,00;Venda Lote 78;Vendas;Banco A (Corrente);TED;Compensado;Cliente Mu;CR085
+T07_019;21/07/2026;12:00:00;Entrada;1.200,00;Renda de Aluguéis (Imóvel 2);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino B;CP090
+T07_020;22/07/2026;08:30:00;Saída;-12.000,00;Aporte em Investimento;Investimentos;Banco A (Corrente);TED;Compensado;Corretora XPTO;CR086
+T07_021;23/07/2026;15:10:00;Entrada;3.500,00;Venda Lote 79;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Pi;CP091
+T07_022;24/07/2026;11:50:00;Saída;-600;Reparo de Veículo;Despesas Operacionais;Caixa;Dinheiro;Compensado;Mecânica Jota;CR087
+T07_023;27/07/2026;10:00:00;Entrada;9.500,00;Venda Lote 80 (Grande);Vendas;Banco A (Corrente);Boleto;Compensado;Cliente Alfa;CP092
+T07_024;28/07/2026;15:00:00;Entrada;1.500,00;Prestação de Serviço (Extra);Prestação de Serviços;Banco B (Poupança);PIX;Compensado;Cliente Nu;CR088
+T07_025;29/07/2026;13:00:00;Saída;-24.000,00;Salários (Parte Final);Folha de Pagamento;Banco A (Corrente);TED;Compensado;RH - Funcionários;CP093
+T07_026;30/07/2026;09:10:00;Entrada;4.100,00;Venda Lote 81;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Beta;CR089
+T07_027;31/07/2026;17:00:00;Saída;-800;Juros de Empréstimo (Mensal);Multas/Juros;Banco A (Corrente);Débito Automático;Compensado;Banco A;CP094
+T08_001;03/08/2026;10:00:00;Saída;-30.000,00;Compra de Estoque (Agosto);Fornecedores;Banco A (Corrente);TED;Compensado;Fornecedor Kappa;CR090
+T08_002;04/08/2026;15:00:00;Entrada;3.000,00;Prestação de Serviço (Recorrente);Prestação de Serviços;Banco A (Corrente);Boleto;Compensado;Empresa Serviços Y;CP095
+T08_003;05/08/2026;09:00:00;Entrada;1.800,00;Renda de Aluguéis (Imóvel 1);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino A;CR091
+T08_004;06/08/2026;17:30:00;Saída;-3.500,00;Aluguel do Escritório;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Locadora Imóveis;CP096
+T08_005;07/08/2026;10:45:00;Entrada;5.000,00;Venda Lote 82;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Zeta;CR092
+T08_006;10/08/2026;16:30:00;Saída;-850;Conta de Luz;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Fornecedor Energia;CP097
+T08_007;11/08/2026;11:00:00;Entrada;6.200,00;Venda Lote 83;Vendas;Banco A (Corrente);TED;Compensado;Cliente Lambda;CR093
+T08_008;12/08/2026;15:20:00;Entrada;2.500,00;Prestação de Serviço (Consultoria);Prestação de Serviços;Banco A (Corrente);Boleto;Compensado;Cliente Rho;CP098
+T08_009;13/08/2026;13:00:00;Saída;-1.500,00;Campanha de Marketing (Reforço);Marketing;Cartão Crédito;Cartão Crédito;Compensado;Agência Digital;CR094
+T08_010;14/08/2026;17:10:00;Entrada;7.500,00;Venda Lote 84;Vendas;Banco A (Corrente);PIX;Compensado;Cliente Mu;CP099
+T08_011;17/08/2026;09:00:00;Saída;-1.800,00;Pagamento de Serviços Terceirizados;Despesas Operacionais;Banco A (Corrente);PIX;Compensado;Prestador X;CR095
+T08_012;18/08/2026;14:40:00;Entrada;4.500,00;Venda Lote 85;Vendas;Banco A (Corrente);Boleto;Compensado;Cliente Alfa;CP100
+T08_013;19/08/2026;11:15:00;Saída;-500;Despesa com Contabilidade;Contas Fixas;Banco A (Corrente);Boleto;Compensado;Escritório Contábil;CR009
+T08_014;20/08/2026;16:50:00;Entrada;1.200,00;Renda de Aluguéis (Imóvel 2);Renda de Aluguéis;Banco B (Poupança);TED;Compensado;Inquilino B;CR015
+T08_015;21/08/2026;18:15:00;Saída;-300;Material de Limpeza;Despesas Operacionais;Caixa;Dinheiro;Compensado;Supermercado Local;CP040
+T08_016;24/08/2026;10:00:00;Entrada;9.000,00;Venda Lote 86;Vendas;Banco A (Corrente);Cartão Crédito;Compensado;Cliente Tau;CP025
+T08_017;25/08/2026;15:30:00;Saída;-23.000,00;Salários (Parte Final);Folha de Pagamento;Banco A (Corrente);TED;Compensado;RH - Funcionários;CP042
+T08_018;26/08/2026;11:45:00;Entrada;3.500,00;Prestação de Serviço (Fechamento);Prestação de Serviços;Banco A (Corrente);PIX;Compensado;Empresa Serviços Z;CP080
+T08_019;27/08/2026;14:00:00;Saída;-1.000,00;Juros e Encargos (Atraso);Multas/Juros;Banco A (Corrente);Débito Automático;Compensado;Fornecedor Delta;CR030
+T08_020;28/08/2026;17:00:00;Entrada;12.000,00;Venda Lote 87 (Fechamento);Vendas;Banco A (Corrente);TED;Compensado;Cliente Omicron;CR012
+T08_021;29/08/2026;09:30:00;Saída;-50;Tarifa de Débito Automático;Despesas Operacionais;Banco A (Corrente);Débito Automático;Compensado;Banco A;CP035
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
