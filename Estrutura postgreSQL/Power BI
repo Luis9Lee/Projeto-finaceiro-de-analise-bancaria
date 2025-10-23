@@ -1,1 +1,34 @@
 
+
+#### 1\. Medida Base: `Valor Líquido Total`
+
+Esta é a medida que agrega o valor principal da sua Tabela Fato (`valor_net`). Serve como base para todas as outras métricas.
+
+```dax
+Valor Líquido Total = 
+SUM('gold_ft_fluxo_caixa'[valor_net])
+```
+
+#### 2\. Medida KPI: `Total Planejado`
+
+Esta medida utiliza a medida base (`Valor Líquido Total`) e aplica um filtro (usando `CALCULATE`) para somar apenas os registros que foram marcados como planejados (onde a coluna `is_planejado` é `TRUE`).
+
+```dax
+Total Planejado = 
+CALCULATE(
+    [Valor Líquido Total],
+    'gold_ft_fluxo_caixa'[is_planejado] = TRUE()
+)
+```
+
+#### 3\. Medida KPI: `Total Realizado`
+
+De forma similar, esta medida filtra a medida base (`Valor Líquido Total`) para somar apenas os registros que foram marcados como realizados (onde a coluna `is_realizado` é `TRUE`), seguindo a lógica implementada no Power BI.
+
+```dax
+Total Realizado = 
+CALCULATE(
+    [Valor Líquido Total],
+    'gold_ft_fluxo_caixa'[is_realizado] = TRUE()
+)
+```
