@@ -485,28 +485,6 @@ df.write \
 2. **Ticket Médio**: volume_total / total_transacoes
 3. **Diversificação**: Número de categorias/estabelecimentos únicos
 
-## Lições Aprendidas e Best Practices
-
-### 1. Schema Management
-- **Schema explícito** > Inferência automática
-- **Validação early-stage** evita problemas downstream
-- **Evolução de schema** com mergeSchema=true
-
-### 2. Performance Optimization
-- **Particionamento** por campos de agregação comum (AnoMes)
-- **Compressão** adequada para tipos de dados
-- **Otimização de arquivos** com autoOptimize
-
-### 3. Data Quality
-- **Metadados** para data lineage
-- **Validação de business rules** na Silver layer
-- **Métricas de qualidade** como KPIs
-
-### 4. Modularidade
-- **Separação clara** entre camadas
-- **Funções especializadas** por responsabilidade
-- **Reutilização** de views e funções comuns
-
 ## Resumo de Funções PySpark Utilizadas
 
 | Função | Camada | Propósito | Benefício |
